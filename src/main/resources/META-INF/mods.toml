@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+#issueTrackerURL="http://my.issue.tracker/"
+[[mods]]
+modId="keepfov"
+version="${file.jarVersion}"
+displayName="Keep FOV"
+#updateJSONURL="http://myurl.me/"
+#displayURL="http://example.com/"
+
+#logoFile="examplemod.png"
+
+authors="Naxanria"
+description='''
+Keeps your fov the same
+'''
+
+[[dependencies.keepfov]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28.1.102,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.keepfov]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
